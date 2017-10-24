@@ -3,6 +3,7 @@ body{
 	background-position: top-left;
 	background-repeat: no-repeat;
 	background-size: 60%;
+	margin: 0% 15%;
 }
 
 #titulo-sitio{
@@ -18,8 +19,40 @@ div#resumenes {
 
 div#resumenes div{
 	border-radius: 10px;
-	background-image: url('https://cdn.sstatic.net/Sites/cooking/img/apple-touch-icon@2.png?v=f987de6cbbd2');
+	background-image: url('https://i.ytimg.com/vi/VR6Och_IaDE/maxresdefault.jpg');
 	display: inline-block;
+	margin-right: 10px;
+}
+
+div#resumenes div:hover{
+	opacity: 0.7;
+}
+
+div#resumenes div span h3{
+	font-variant: small-caps;
+	border-bottom: 1px solid black;
+}
+
+div#resumenes div span h3 a:hover{
+	color:#edc163;
+	text-decoration: none;
+}
+
+div#resumenes div span h3 a:visited{
+	color:#7c652e;
+}
+
+div#resumenes div span h3 a{
+	color: #db990a;
+	text-decoration: underline;
+}
+
+div#resumenes div span p:first-child{
+	color: #d69f2a;
+}
+
+div#resumenes div span p:last-child{
+	padding: 2px;
 }
 
 div#recetas div{
@@ -38,4 +71,5 @@ div#recetas div span:last-child{
 
 div#recetas div span p{
 	width: 1000px;
+	padding: 5px;
 }
