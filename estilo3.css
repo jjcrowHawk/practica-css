@@ -1,0 +1,17 @@
+body{
+	background-image: url('https://cdn.pixabay.com/photo/2014/12/21/23/26/cutting-board-575367_960_720.png');
+	background-position: top-left;
+	background-repeat: no-repeat;
+	background-size: 60%;
+}
+
+#titulo-sitio{
+	font-size: 4em;
+	color: #d39a0a;
+	text-shadow: #bc8609;
+}
+
+div#resumenes~div{
+	border-radius: 10px;
+	background-image: url('https://cdn.sstatic.net/Sites/cooking/img/apple-touch-icon@2.png?v=f987de6cbbd2');
+}
